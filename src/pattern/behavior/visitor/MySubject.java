@@ -2,7 +2,7 @@ package pattern.behavior.visitor;
 
 public class MySubject implements Subject {
 	
-	public void accept(Visitor visitor ){
+	public void accept(Visitor_A visitor ){
 		visitor.visit(this);
 	}
 	

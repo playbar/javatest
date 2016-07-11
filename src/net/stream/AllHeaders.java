@@ -9,6 +9,7 @@ public class AllHeaders {
 		try{
 			URL u = new URL("http://www.oreilly.com");
 			URLConnection uc = u.openConnection();
+			System.out.println(uc.getURL());
 			for( int j = 1; ; ++j ){
 				String header = uc.getHeaderField( j );
 				if( header == null )

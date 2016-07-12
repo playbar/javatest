@@ -1,4 +1,4 @@
-package net.stream;
+package net.socket;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

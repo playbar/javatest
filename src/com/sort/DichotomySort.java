@@ -25,7 +25,7 @@ public class DichotomySort {
             int mid = 0;
             while(left<=right){
                 mid = (left+right)/2;
-                if(temp<a[mid]){
+                if(temp>a[mid]){
                     right = mid-1;
                 }else{
                     left = mid+1;
